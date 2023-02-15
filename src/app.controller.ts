@@ -12,6 +12,6 @@ export class AppController {
   @Get()
   @Render('index')
   index() {
-    return { message: 'Welcome to the homepage' };
+    return { message: 'Welcome to the Hungary' };
   }
 }
